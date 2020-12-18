@@ -1,0 +1,65 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background:#ddd;
+	color:black;
+	font-family: Arial;
+}
+input{
+	display: block;
+	height: 60px;
+	width: 440px;
+	margin: 10px;
+	border-radius: 30px;
+	font-size: 16px;
+	padding: 20px 20px;
+	background-color: rgba(255,255,255,0.1);
+	color:black;
+	outline: none;
+}
+input[type=submit]{
+	height: 50px;
+	width: 440px;
+	background-color:red;
+	cursor: pointer;
+	border:none;
+	color:white;
+}
+div.corpo-form{
+	width: 420px;
+	margin: 150px auto 0px auto;
+}
+div.corpo-form-cad{
+	width: 420px;
+	margin: 70px auto 0px auto;
+}
+div.corpo-form h1, div.corpo-form-cad h1 {
+	text-align: center;
+	padding: 20px;
+}
+a{
+	color:red;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+a:hover {
+	text-decoration: underline;
+}
+div#msg-sucesso{
+	width: 400px;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: rgba(50, 205, 50 0.3);
+	border: 1px solid	rgb(34, 139, 34);
+}
+div.msg-erro{
+	width: 400px;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: rgba(250, 128, 114, 0.3);
+	border: 1px solid	rgb(165, 42, 42);
+}
